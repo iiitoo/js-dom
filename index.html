@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="zh_hans">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>JavaScript</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="./bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <h1 class="text-center">快照</h1>
+        <ul class="clearfix">
+            <li><a href="./images/img_0003_0.jpg" onclick="showPic(this); return false;" title="A fireworks dispaly">Fireworks</a></li>
+            <li><a href="./images/img_0002_1.jpg" onclick="showPic(this); return false;" title="A cup of black coffee">Coffee</a></li>
+            <li><a href="./images/img_0001_2.jpg" onclick="showPic(this); return false;" title="A red, red rose">Rose</a></li>
+            <li><a href="./images/img_0000_3.jpg" onclick="showPic(this); return false;" title="The famous clock">Big Ben</a></li>
+        </ul>
+
+        
+        
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="thumbnail">
+                <img src="./images/img_0004_1.jpg" class="img-responsive"  alt="my image gallary" id="placeholder">
+                <p class="text-center" id="description">Choose an image.</p>
+            </div>
+        </div>
+        <div><a href="http://www.example.com" class="popup">example</a></div>
+        
+        <!-- jQuery -->
+        <script src="./bower_components/jquery/dist/jquery.min.js"></script>
+        <!-- Bootstrap JavaScript -->
+        <script src="./bower_components/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="./js/script.js"></script>
+    </body>
+</html>
