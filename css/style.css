@@ -1,11 +1,11 @@
 body{
     font-family: "Helvetica" "Arial" serif;
     color: #333333;
-    background-color: #333333;
+    background-color: #cccccc;
     margin: 1em 10%;
 }
 h1{
-    color: #ffffff;
+    color: #333333;
     background-color: transparent;
 }
 a{
@@ -25,4 +25,16 @@ li{
 img{
     display: block;
     clear: both;
+}
+#imgallery{
+    list-style: none;
+}
+#imgallery{
+    display: inline;
+}
+#imgallery li a img {
+    border: 0;
+    border-radius: 10px;
+    width: 50px;
+    float: left;
 }
